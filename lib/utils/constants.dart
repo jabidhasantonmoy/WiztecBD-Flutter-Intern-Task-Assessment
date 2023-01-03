@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+String takaSign = '৳';
 
 MaterialColor customMaterialColor = MaterialColor(0xFF10AB83, color);
 Map<int, Color> color = {
@@ -15,3 +18,30 @@ Map<int, Color> color = {
 };
 
 Color customColor = const Color(0xFF10AB83);
+
+TextStyle tableTextStyleBoldLarge = GoogleFonts.poppins(
+  fontSize: 14,
+  fontWeight: FontWeight.w600,
+);
+TextStyle tableTextStyleBoldLargeWhite = GoogleFonts.poppins(
+    fontSize: 14, fontWeight: FontWeight.w600, color: Colors.white);
+TextStyle tableTextStyleBold = GoogleFonts.poppins(
+  fontSize: 12,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle tableTextStyle = GoogleFonts.poppins(
+  fontSize: 12,
+);
+
+TextStyle takaTextStyle = GoogleFonts.poppins(
+  fontSize: 12,
+  color: Colors.deepOrangeAccent,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle borderTextStyle = GoogleFonts.poppins(
+  fontSize: 13,
+  color: Colors.white,
+  fontWeight: FontWeight.w600,
+);
